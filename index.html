@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portland Trivia</title>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--CSS Stylesheet Link -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- javascript -->
+    <script src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+    <div id="show-number"></div>
+    <ol>
+        <li>This is a picture of what?</li>
+        <ol>
+        <form>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q1">A modern art installation
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q1">A memorial for Portland's founder
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q1">The world's smallest park*
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q1">No one knows! This is Portland, people.
+                </label>
+            </li>
+        </form>
+        </ol>
+        <li>What is the name of Portland's NBA team?</li>
+        <ol>
+        <form>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q2">Portland Trail Blazers*
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q2">Portland Flash
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q2">Portland Warriors
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q2">Portland Pelicans
+                </label>
+            </li>
+        </form>
+        </ol>
+        <li>As a part of the Portland Horse Project, people tie-up miniature toy horses to rings all over the streets of Portland. Why?</li>
+        <ol>
+        <form>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q3">To commemorate olden days, when horses were the primary mode of transportation
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q3">To encourage and generate communal participation
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q3">To uphold tradition for tradition's sake
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q3">All of the above*
+                </label>
+            </li>
+        </form>
+        </ol>
+        <li>The annual World Naked Bike Ride in Portland is the world's largest with 13,000 nude participants. But it goes against some public decency laws, so why is it still allowed?</li>
+        <ol>
+        <form>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q4">It's not. People do it anyway!
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q4">Because it happens in the dead of night, so unassuming members of the public are not subjected to the nudity
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q4">Because it's been granted "tradition" status*
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q4">Becuase most participants work in law enforcement, so they bend the rules
+                </label>
+            </li>
+        </form>
+        </ol>
+        <li>What's so special about Mount Tabor, which is in Southeast Portland?</li>
+        <ol>
+        <form>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q5">It is an extinct volcano*
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q5">It is said to be an Indian burial ground
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q5">It is the world's largest park
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q5">It is a very strict nature reserve, which forbids humans on the premises
+                </label>
+            </li>
+        </form>
+        </ol>
+        <li>Portland loves street food. About how many food trucks do you think are in operation within Portland city limits today?</li>
+        <ol>
+        <form>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q6">150
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q6">500*
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q6">1,000
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q6">It's impossible to keep an accurate count!
+                </label>
+            </li>
+        </form>
+        </ol>
+        <li>Portland also loves beer. In fact, the city is nicknamed "Beertown" and "Beervana". Which of the following Portland beer facts is true?</li>
+        <ol>
+        <form>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q7">Portland has the most total breweries and independent microbreweries of any city in the world
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q7">An abundance of beer ingredients are produced locally, including two-row barley, over a dozen varieties of local Cascade hops, and pure mountain water
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q7">CNBC named Portland the best city in the world for happy hour as a result of the city's prominent beer culture
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q7">All of the above*
+                </label>
+            </li>
+        </form>
+        </ol>
+        <li>What's so special about Powell's City of Books in Portland?</li>
+        <ol>
+        <form>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q8">It's the world's largest independent bookstore*
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q8">It's the only bookstore in the world dedicated exclusively to veganism
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q8">It's owned by Bernie Sanders
+                </label>
+            </li>
+            <li class="radio">
+                <label>
+                    <input type="radio" name="q8">It was built around a tree, which continues to grow in the center of the store
+                </label>
+            </li>
+        </form>
+        </ol>
+    </ol>
+
+    <button>Done</button>
+
+</body>
+
+</html>
